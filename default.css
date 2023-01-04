@@ -144,7 +144,8 @@ a:hover {
 /*********************************************************************************/
 
 #logo {
-    padding: 0em 0em;
+    /*padding: 0em 0em;*/
+    padding-left: 30px;
     text-align: center;
 }
 
@@ -185,6 +186,11 @@ a:hover {
 
 
 /*********************************************************************************/
+
+.mynav{
+    display: grid;
+    grid-template-columns: 10% 50% 40%;
+}
 
 .mynav ul {
     display: flex;
