@@ -143,7 +143,7 @@ a:hover {
 
 #header-wrapper {
     overflow: hidden;
-    padding: 2em 0em;
+    padding: 1em 0em;
 }
 
 
@@ -162,8 +162,8 @@ a:hover {
 }
 
 #logo img {
-    width: 143px;
-    height: 40px;
+    width: 286px;
+    height: 80px;
 }
 
 #logo h1 {
@@ -201,12 +201,13 @@ a:hover {
 
 .mynav{
     display: grid;
-    grid-template-columns: 10% 50% 40%;
+    grid-template-columns: 40% 10% 50%;
 }
 
 .mynav ul {
     display: flex;
     justify-content: center;
+    align-items:center;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
