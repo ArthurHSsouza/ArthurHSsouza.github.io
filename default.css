@@ -201,7 +201,7 @@ a:hover {
 
 .mynav{
     display: grid;
-    grid-template-columns: 40% 10% 50%;
+    grid-template-columns: 47.5% 5% 47.5%;
 }
 
 .mynav ul {
@@ -258,6 +258,7 @@ a:hover {
 
 #wrapper1 {
     background: #FFF;
+    width: 100%;
 }
 
 #wrapper2 {
@@ -329,10 +330,10 @@ a:hover {
 
 #empresa{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 10% 45%;
 }
 
-#fotos-empresa{
+.fotos-empresa{
     display: flex;
     justify-content: center;
     align-items:center;
