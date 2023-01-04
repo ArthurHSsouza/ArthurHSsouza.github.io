@@ -131,7 +131,7 @@ a:hover {
 
 #header-wrapper {
     overflow: hidden;
-    padding: 5em 0em;
+    padding: 2em 0em;
 }
 
 
@@ -144,13 +144,13 @@ a:hover {
 /*********************************************************************************/
 
 #logo {
-    padding: 5em 0em;
+    padding: 0em 0em;
     text-align: center;
 }
 
 #logo img {
-    width: 200px;
-    height: 200px;
+    width: 143px;
+    height: 40px;
 }
 
 #logo h1 {
