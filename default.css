@@ -327,6 +327,17 @@ a:hover {
     font-size: 1.2em;
 }
 
+#empresa{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#fotos-empresa{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
 
 /*********************************************************************************/
 
