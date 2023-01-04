@@ -296,6 +296,9 @@ a:hover {
 #welcome .title h2 {
     color: rgba(255, 255, 255, 1);
 }
+#welcome .title h3 {
+    color: rgba(255, 255, 255, 1);
+}
 
 #welcome a,
 #welcome strong {
