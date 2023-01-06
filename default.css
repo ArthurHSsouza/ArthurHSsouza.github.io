@@ -202,6 +202,7 @@ a:hover {
 .mynav{
     display: grid;
     grid-template-columns: 47.5% 5% 47.5%;
+    padding-bottom: 1em;
 }
 
 .mynav ul {
