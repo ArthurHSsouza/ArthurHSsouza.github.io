@@ -265,7 +265,7 @@ a:hover {
     background: #008cff;
 }
 
-#listbox{
+.listbox{
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -279,7 +279,7 @@ a:hover {
 
 #wrapper4 {
     overflow: hidden;
-    background: #ca3939;
+    background: #008cff;
 }
 
 #wrapper5 {
@@ -331,6 +331,7 @@ a:hover {
 #empresa{
     display: grid;
     grid-template-columns: 45% 10% 45%;
+    padding-bottom: 2em;
 }
 
 .fotos-empresa{
@@ -572,9 +573,16 @@ a:hover {
 
 /*********************************************************************************/
 
+#explain{
+    overflow: hidden;
+    width: auto;
+    padding: 5em 5% 8em 5%;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.4);
+}
+
 #explain .title h2 {
     color: rgba(255, 255, 255, 1);
-    padding: 3em 100px 0em 100px;
 }
 
 #explain .title p {
@@ -586,7 +594,7 @@ a:hover {
 }
 
 #explain .title {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     text-align: justify;
 }
 
