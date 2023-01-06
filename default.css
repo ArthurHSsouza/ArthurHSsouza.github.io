@@ -558,17 +558,21 @@ a:hover {
 .column1,
 .column2,
 .column3,
-.column4,
-.column5 {
-    width: 160px;
+.column4{
+    width: 220px;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
     display: inline-flex;
 }
 
+.column3,
+.column4{
+    width:300px;
+}
+
 .columns {
-    padding: 0em 3em 0em 0em;
+    padding: 3em 3em 0em 0em;
 }
 
 
