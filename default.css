@@ -288,7 +288,7 @@ a:hover {
 
 #wrapper6 {
     overflow: hidden;
-    background: #5d9645;
+    background: #FFF;
 }
 
 
@@ -615,22 +615,59 @@ a:hover {
 /*********************************************************************************/
 
 #about .title h2 {
-    color: rgba(255, 255, 255, 1);
-    padding: 3em 100px 0em 100px;
+    color: rgb(0, 0, 0);
 }
+#about .title h2 {
+    color: rgb(0, 0, 0);
+}
+#about h5 {
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+}
+
 
 #about .title p {
     letter-spacing: normal;
     text-transform: none;
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: rgba(255, 255, 255, 0.4);
-    padding: 2em 100px 2em 100px;
+    /*padding: 2em 100px 2em 100px;*/
 }
 
 #about .title {
-    margin-bottom: 5em;
     text-align: justify;
 }
+
+#contato{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+#contato p{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#contato input{
+    height: 2.5em;
+    width: 80%;
+    border-radius: 10px;
+    border-color: #6F6F6F;
+    border-style:solid;
+}
+
+#contato textarea{
+    height: 7.5em;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#contato form p{
+    padding-bottom: 0.1em;
+}
+
 
 
 /*********************************************************************************/
