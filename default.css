@@ -122,7 +122,6 @@ a:hover {
 .title h2 {
     font-size: 2em;
     color: #261300;
-    padding-top: 1em;
 }
 
 .title .byline {
@@ -332,6 +331,7 @@ a:hover {
 #empresa{
     display: grid;
     grid-template-columns: 45% 10% 45%;
+    padding-bottom: 2em;
 }
 
 .fotos-empresa{
