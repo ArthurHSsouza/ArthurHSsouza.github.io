@@ -337,11 +337,17 @@ a:hover {
     font-size: 15px;
 }
 
-.fotos-empresa{
+#fotos-empresa{
     display: flex;
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
+    padding-bottom: 3em;
+}
+
+#fotos-empresa section{
+    width: 70%;
+    height: 60%;
 }
 
 /*********************************************************************************/
