@@ -344,12 +344,6 @@ a:hover {
     flex-wrap: wrap;
 }
 
-@media(max-width: 800px){
-    #fotos-empresa
-    {
-        padding-top: 25%;
-    }
-}
 /*********************************************************************************/
 
 
@@ -418,8 +412,8 @@ a:hover {
 }
 
 .box img {
-    width: 13em;
-    height: 13em;
+    width: 10em;
+    height: 9em;
 }
 
 .zoom {
