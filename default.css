@@ -156,13 +156,14 @@ a:hover {
 /*********************************************************************************/
 
 #logo {
-    padding-left: 20px;
     text-align: center;
+    padding-bottom: 4em;
+    padding-top:
 }
 
 #logo img {
-    width: 286px;
-    height: 80px;
+    width: 350px;
+    height: 350px;
 }
 
 #logo h1 {
@@ -200,8 +201,8 @@ a:hover {
 
 .mynav{
     display: grid;
-    grid-template-columns: 47.5% 5% 47.5%;
-    padding-bottom: 1em;
+    grid-template-rows: 35% 30% 35%;
+    /*padding-bottom: 1em;*/
 }
 
 .mynav ul {
