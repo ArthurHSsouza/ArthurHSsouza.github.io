@@ -205,7 +205,7 @@ a:hover {
     display: grid;
     grid-template-rows: 35% 30% 35%;
     padding-top: 5em;
-    padding-bottom: 3em;
+    padding-bottom: 3.1em;
 }
 
 .mynav ul {
@@ -223,10 +223,11 @@ a:hover {
 }
 
 .mynav a {
-    font-size: 1.4em;
-    font-family: Poppins, s;
+    font-size: 1.3em;
+    font-family: sans;
     color: white;
     font-weight:400;
+    text-transform: uppercase;
     
     text-decoration: none;
     padding: 7px 15px;
@@ -234,23 +235,24 @@ a:hover {
 }
 
 .mynav ul li a.two:hover {
-    border-bottom: 5px solid #008cff;
+    border-bottom: 3px solid #008cff;
 }
 
 .mynav ul li a.one:hover {
-    border-bottom: 5px solid #008cff;
+    border-bottom: 3px solid #008cff;
 }
 
 .mynav ul li a.three:hover {
-    border-bottom: 5px solid #008cff;
+
+    border-bottom: 3px solid #008cff;
 }
 
 .mynav ul li a.four:hover {
-    border-bottom: 5px solid #008cff;
+    border-bottom: 3px solid #008cff;
 }
 
 .mynav ul li a.five:hover {
-    border-bottom: 5px solid #ff0000;
+    border-bottom: 3px solid;
 }
 
 
@@ -703,8 +705,8 @@ a:hover {
     background: #e7e7e7;
 	right: 0; 
 	bottom: 0;
-	/*min-width: 100%; 
-	min-height: 100%;*/
+	min-width: 100%; 
+	min-height: 100%;
 	height: cover; 
     width: cover;
 }
