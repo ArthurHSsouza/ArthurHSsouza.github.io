@@ -225,23 +225,23 @@ a:hover {
     text-decoration: none;
     padding: 7px 15px;
     font-weight: 100;
-    text-transform: lowercase;
+
 }
 
 .mynav ul li a.two:hover {
-    border-bottom: 5px solid #ffde59;
+    border-bottom: 5px solid #008cff;
 }
 
 .mynav ul li a.one:hover {
-    border-bottom: 5px solid #5271ff;
+    border-bottom: 5px solid #008cff;
 }
 
 .mynav ul li a.three:hover {
-    border-bottom: 5px solid #ff0000;
+    border-bottom: 5px solid #008cff;
 }
 
 .mynav ul li a.four:hover {
-    border-bottom: 5px solid #7ed957;
+    border-bottom: 5px solid #008cff;
 }
 
 .mynav ul li a.five:hover {
