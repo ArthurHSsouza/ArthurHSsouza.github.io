@@ -51,10 +51,21 @@
         });
         wow.init();
     </script>
+
+    <script>
+        function sendMail() {
+            var link = "mailto:flavio@gtechg.com.br"
+                + "?subject:" + encodeURI("E-Mail Corporativo")
+                + "&body=" + encodeURI(document.getElementById('mensagem').value)
+                ;
+            window.location.href = link;
+        }
+    </script>
+
 </head>
 
 <body>
-    
+
     <section class="wow fadeInDown">
         <div id="wrapper1">
             <video playsinline autoplay muted loop class="bg_video">
@@ -212,10 +223,10 @@
                     </ul>
                 </div>
                 <div style="text-align: center; padding-top: 3.5em;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fIUsG6DrIfg"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+
+                    <video width="560" height="315" controls>
+                        <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -224,8 +235,9 @@
         <div id="wrapper3">
             <div id="portfolio" class="container">
                 <div class="title">
-                    <h2>Empresas parceiras</h2>
+                    <h2>SOLUÇÕES</h2>
                 </div>
+                <!-- 
                 <div class="columns">
                     <div class="column1">
                         <div class="box">
@@ -251,7 +263,7 @@
                             <p>Russo consultoria</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -273,7 +285,7 @@
                         <li>F2B Energia + ECOWAVE + Crédito Carbono</li>
                         <li>LEAD Energy + FORGET 3DAMBEV + WK </li>
                     </ul>
-                    <ul>    
+                    <ul>
                         <li>IE 12/12 PORTO + AGRO DATAGRO</li>
                         <li>AAPA LATINO + DATAGRO</li>
                         <li>UNISANTOS + Santa Cecilia</li>
@@ -325,22 +337,115 @@
                                     }
                                 </style>
                             </div>
+
+
                         </div>
                     </div>
+
                     <div>
                         <div class="title">
                             <h2>Entre em contato</h2>
                         </div>
                         <p>Nossa equipe de atendimento está sempre disposta a lhe proporcionar a melhor experiência
                             em suporte e helpdesk. Entre em contato, ficaremos satisfeitos em tirar as suas dúvidas!</p>
-                        <form action="https://formsubmit.co/lipe.gigante2004@gmail.com" method="POST">
-                            <p>Nome</p><input type="text">
-                            <p>Sobrenome</p><input type="text">
-                            <p>E-mail</p><input type="email" name="" id="">
+
+                        <div id="botao">
+                            <p>Nome</p><input type="text" id="name">
+                            <p>E-mail</p><input type="email" name="" id="email">
                             <p>Telefone</p><input type="text">
-                            <p>Mensagem</p><textarea name="" id="" cols="30" rows="10"></textarea>
-                            <button type="submit">Send</button>
-                        </form>
+                            <p>Mensagem</p><textarea name="" id="mensagem" cols="30" rows="10"></textarea><br /><br />
+                            <input type="submit" name="botao" value="Enviar" class="botaoEnviar" onclick="sendMail()" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="title">
+                    <h2>Contatos</h2>
+                </div>
+
+                <div id="redes">
+                    <div>
+                        <h5>Flávio Galvão</h5>
+                        <p>
+                            Diretor Técnico e Inovação <br>
+                            Cel: +55139981284000 <br>
+                            Tel: +551333070244 / 3307-0251 <br>
+                            Email: <a href="mailto:flavio@gtechg.com.br">flavio@gtechg.com.br</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=55139981284000&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                    src="images/icon zap.png" class="imageZap" /></a>
+                            <a href="mailto:flavio@gtechg.com.br"><img src="images/icon email.png"
+                                    class="imageEmail" /></a><br />
+
+                            <img src="images/qrcodes/flavio.jpeg" class="qrCode" />
+
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Renata dos Santos</h5>
+                        <p>
+                            Diretora de Contratos <br>
+                            Cel: +55139981246943 <br>
+                            Tel: +551333070244 / 3307-0251 <br>
+                            Email: <a href="mailto:renata@gtechg.com.br">renata@gtechg.com.br</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=55139981246943&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                    src="images/icon zap.png" class="imageZap" /></a>
+                            <a href="mailto:renata@gtechg.com.br"><img src="images/icon email.png"
+                                    class="imageEmail" /></a>
+
+                            <img src="images/qrcodes/renata.jpeg" class="qrCode" />
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Diego Costa </h5>
+                        <p>
+                            Gerente de Tecnologia/Negócios <br>
+                            Cel: +5513996519721 <br>
+                            Tel: +551333070244 / 3307-0251 <br>
+                            Email: <a href="mailto:diego@gtechg.com.br">diego@gtechg.com.br</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5513996519721&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                    src="images/icon zap.png" class="imageZap" /></a>
+                            <a href="mailto:diego@gtechg.com.br"><img src="images/icon email.png"
+                                    class="imageEmail" /></a>
+
+                            <img src="images/qrcodes/diego.jpeg" class="qrCode" />
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Ricardo Pedrassi</h5>
+                        <p>
+                            Gerente de Tecnologia/Projetos <br>
+                            Cel: +5513996767700 <br>
+                            Tel: +551333070244 / 3307-0251 <br>
+                            Email: <a href="mailto:ricardo@gtechg.com.br">ricardo@gtechg.com.br</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5513996767700&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                    src="images/icon zap.png" class="imageZap" /></a>
+                            <a href="mailto:ricardo@gtechg.com.br"><img src="images/icon email.png"
+                                    class="imageEmail" /></a>
+
+                            <img src="images/qrcodes/ricardo.jpeg" class="qrCode" />
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Atendimento Corporativo</h5>
+                        <p>
+                            Gestão de Relacionamento <br>
+                            Cel: +5513997688406 <br>
+                            Tel: +551333070244 / 3307-0251 <br>
+                            Email: <a href="mailto:atendimento@gtechg.com.br">atendimento@gtechg.com.br</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5513997688406&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                    src="images/icon zap.png" class="imageZap" /></a>
+                            <a href="mailto:atendimento@gtechg.com.br"><img src="images/icon email.png"
+                                    class="imageEmail" /></a>
+
+                            <img src="images/qrcodes/atendimento.jpeg" class="qrCode" />
+                        </p>
                     </div>
                 </div>
             </div>

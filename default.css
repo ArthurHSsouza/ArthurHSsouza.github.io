@@ -402,6 +402,27 @@ a:hover {
 /*********************************************************************************/
 
 
+/* Formulario                                                                     */
+
+
+/*********************************************************************************/
+
+
+
+.botaoEnviar{
+    width: 200px;
+    text-align: center;
+    background-color: #008cff;
+    height: 48px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/*********************************************************************************/
+
+
 /* Copyright                                                                     */
 
 
@@ -660,8 +681,7 @@ a:hover {
 }
 
 #contato p{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.9em;
 }
 
 #contato input{
@@ -670,6 +690,7 @@ a:hover {
     border-radius: 10px;
     border-color: #6F6F6F;
     border-style:solid;
+    padding: 10px;
 }
 
 #contato textarea{
@@ -678,9 +699,44 @@ a:hover {
     border-radius: 10px;
 }
 
-#contato form p{
-    padding-bottom: 0.1em;
+
+/*********************************************************************************/
+
+
+/* Redes Sociais                                                                  */
+
+
+/*********************************************************************************/
+
+
+#redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
+
+.imageZap{
+    width: 118px;
+    height: 85px;
+}
+
+.imageEmail{
+    width: 45px;
+    height: 45px;
+}
+
+.qrCode {
+    width: 120px;
+    height: 120px;
+    
+}
+
+
+
+
+
+
 
 
 
