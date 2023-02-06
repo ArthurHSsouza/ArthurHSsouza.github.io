@@ -280,13 +280,13 @@ a:hover {
 /*********************************************************************************/
 
 #wrapper1 {
-    background: #FFF;
+    background-image: url('images/fundo-branco.jpg');
     position: relative;
     width: 100%;
 }
 
 #wrapper2 {
-    background: #01a0f6;
+    background-image: url('images/fundo-azul.jpg');
 }
 
 .listbox{
@@ -299,21 +299,21 @@ a:hover {
 #wrapper3 {
     overflow: hidden;
     padding: 2em 5% 8em 5%;
-    background: #FFF;
+    background-image: url('images/fundo-branco.jpg');
 }
 
 #wrapper4 {
     overflow: hidden;
-    background: #01a0f6;
+    background-image: url('images/fundo-azul.jpg');
 }
 
 #wrapper5 {
-    background: #FFF;
+    background-image: url('images/fundo-branco.jpg');
 }
 
 #wrapper6 {
     overflow: hidden;
-    background: #FFF;
+    background-image: url('images/fundo-branco.jpg');
 }
 
 
