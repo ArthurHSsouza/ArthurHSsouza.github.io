@@ -733,6 +733,35 @@ a:hover {
 
 }
 
+#solucoes{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.solucao{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.texto-solucao1, 
+.texto-solucao2{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto-solucao1 img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+.texto-solucao2 img{
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
 #videos-solucoes{
     text-align: center;
     display: grid;
@@ -745,6 +774,7 @@ a:hover {
 #videos-solucoes video{
     width: 90%;
     height: 70%;
+    padding-bottom: 2em;
 }
 
 .imageZap{
