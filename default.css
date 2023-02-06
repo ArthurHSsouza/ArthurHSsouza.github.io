@@ -711,9 +711,25 @@ a:hover {
 
 #redes{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding-bottom: 3em;
-    padding-top: 3em;
+    grid-template-rows: 50% 50%;
+}
+#redes1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#redes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    margin: 1em 1em 1em 1em;
+    padding-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
 }
 
 .imageZap{
