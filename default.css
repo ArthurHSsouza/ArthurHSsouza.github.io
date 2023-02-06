@@ -170,8 +170,8 @@ a:hover {
 }
 
 #logo img {
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 410px;
 }
 
 #logo h1 {
@@ -210,8 +210,8 @@ a:hover {
 .mynav{
     display: grid;
     grid-template-rows: 35% 30% 35%;
-    padding-top: 5em;
-    padding-bottom: 3.1em;
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 .mynav ul {
@@ -711,9 +711,25 @@ a:hover {
 
 #redes{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding-bottom: 3em;
-    padding-top: 3em;
+    grid-template-rows: 50% 50%;
+}
+#redes1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#redes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    margin: 1em 1em 1em 1em;
+    padding-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
 }
 
 .imageZap{
@@ -778,6 +794,6 @@ a:hover {
 	bottom: 0;
 	min-width: 100%; 
 	min-height: 100%;
-	height: cover; 
-    width: cover;
+	height:auto; 
+    width: auto;
 }
