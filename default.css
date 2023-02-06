@@ -755,11 +755,13 @@ a:hover {
     margin-right: auto;
     width: 80%;
     height: 80%;
+    min-width: 200px;
 }
 .texto-solucao2 img{
     margin-right: auto;
     width: 80%;
     height: 80%;
+    min-width: 200px;
 }
 
 #videos-solucoes{
