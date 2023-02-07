@@ -737,17 +737,18 @@ a:hover {
     margin: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 5%;
 }
 .solucao{
     margin: auto;
     display: grid;
-    grid-template-rows: 1fr 4fr;
-}
-.texto-solucao1, 
-.texto-solucao2{
-    margin: auto;
-    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15%;
+    
+}
+
+.solucao p{
+    text-align: justify;
 }
 
 .texto-solucao1 img{
