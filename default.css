@@ -72,6 +72,18 @@ a:hover {
     width: auto;
 }
 
+.carousel-control-next:hover{
+    background-color: #d1c6c8ec;
+    transition: 0.2s all ease-in-out;
+    opacity: 1;
+}
+.carousel-control-prev:hover{
+    background-color: #d1c6c8;
+    transition: 0.2s all ease-in-out;
+    opacity: 1;
+    
+}
+
 
 /*********************************************************************************/
 
