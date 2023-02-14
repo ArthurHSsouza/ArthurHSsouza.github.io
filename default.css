@@ -292,7 +292,7 @@ a:hover {
 .listbox{
     display: grid;
     grid-template-columns: 50% 50%;
-    color: rgba(255, 255, 255, 0.650);
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -357,7 +357,7 @@ a:hover {
     display: grid;
     grid-template-columns: 45% 10% 45%;
     padding-bottom: 2em;
-    color: rgba(255, 255, 255, 0.650);
+    color: #ffffff;
     font-size: 15px;
 }
 
@@ -699,6 +699,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.endereco{
+    font-size: 18px;
+}
+
 
 /*********************************************************************************/
 
@@ -710,9 +714,17 @@ a:hover {
 
 
 #redes{
-    display: grid;
-    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
 }
+
+#redes .card{
+    padding: 40px;
+}
+
+/*
 #redes1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -721,6 +733,8 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+*/
 
 .card{
     border-radius: 50px;
@@ -781,18 +795,18 @@ a:hover {
 }
 
 .imageZap{
-    width: 118px;
-    height: 85px;
+    width: 100px;
+    height: 65px;
 }
 
 .imageEmail{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
 }
 
 .qrCode {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     
 }
 

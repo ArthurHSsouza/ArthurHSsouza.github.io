@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http&#45;equiv="Content&#45;Type" content="text/html; charset=iso&#45;8859&#45;1">
+    <link rel="sortcut icon" href="logo.png" type="image/x&#45;icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>GTech - Global Tecnologia Network</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="dist/wow.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            jQuery("#subirTopo").hide();
+
+            jQuery('a#subirTopo').click(function () {
+                jQuery('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 1000) {
+                    jQuery('#subirTopo').fadeIn();
+                } else {
+                    jQuery('#subirTopo').fadeOut();
+                }
+            });
+
+            jQuery('.image&#45;link').magnificPopup({
+                type: 'image'
+            });
+        });
+
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100,
+            callback: function (box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        });
+        wow.init();
+    </script>
+
+    <script>
+        function sendMail() {
+            var link = "mailto:flavio@gtechg.com.br"
+                + "?subject:" + encodeURI("E-Mail Corporativo")
+                + "&body=" + encodeURI(document.getElementById('mensagem').value)
+                ;
+            window.location.href = link;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <section class="wow fadeInDown">
+        <div id="wrapper1">
+            <video playsinline autoplay muted loop class="bg_video" poster="images/carr2.jpg">
+                <source src="videos/back.mp4" type="video/mp4">
+            </video>
+            <div id="header-wrapper">
+                <div id="header">
+                    <nav class="mynav">
+                        <div id="logo"><img src="images/logologo.png"></div>
+                        <div></div>
+                        <ul>
+                            <li><a href="#wrapper2" class="one">Empresa</a></li>
+                            <li><a href="#wrapper3" class="two">Soluciones</a></li>
+                            <li><a href="#wrapper4" class="two">Fabricantes</a></li>
+                            <li><a href="#wrapper6" class="three">Contacto</a></li>
+                            <li><a href="english.html"><img src="./images/eua.png"></a></li>
+                            <li><a href="index.html"><img src="./images/brasil.png"></a></li>
+                        </ul>
+                    </nav>
+                    <span class="target"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wow fadeInDown">
+        <div id="wrapper2">
+            <div id="welcome" class="container">
+                <div class="title">
+                    <h2>Empresa</h2>
+                </div>
+                <div id="empresa">
+                    <div>
+                        <p><b>Desarrollamos proyectos y soluciones a la medida en el área de tecnología para generar
+                                beneficios
+                                Es resultados satisfactorios para nuestros clientes. Contamos con profesionales
+                                altamente calificados,
+                                todos con más de 15 años de experiencia a nosotros más varios segmentos.</b>
+                        </p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <p><b>Llevamos cerca de 25 años haciendo y experimentando la automatización portuaria y
+                                portuaria, acompañando y
+                                contribuyendo con las autoridades que regulan el sector a la evolución, principalmente
+                                en tecnología, innovación y gestión. El arte de la INNOVACIÓN es nuestro ADN</b>
+                        </p>
+                    </div>
+                </div>
+
+                <!--Fotos da empresa-->
+                <div id="fotos-empresa">
+                    <section>
+                        <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="true">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/empresa1.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/empresa2.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/empresa3.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/empresa4.jpeg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/empresa5.jpeg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/empresa6.jpeg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/empresa7.jpeg" class="d-block w-100">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+                <div class="title">
+                    <h2>Soluciones</h2>
+                </div>
+
+                <div class="listbox">
+                    <ul>
+                        <b>
+                            <li>Pantalla Arquitectura General</a></li>
+                            <li>Automatización e Inteligencia Portuaria</a></li>
+                            <li>PLATAFORMA + ECOSSISTEMA </a></li>
+                            <li>5G y LTE + IOT + INNOVACIÓN + PATENTES</a></li>
+                            <li>Inteligencia Artificial + Aprendizaje Automático</a></li>
+                            <li>Inmersión Operacional + DIGITAL TWIN = Modelo Digital</a></li>
+                            <li>Desarrollo de Software + Automatización + APLICACIÓN MÓVIL</a></li>
+                            <li>Video Analytics + Drones Autónomos </a></li>
+                            <li>ESG + CYBERSECURITY + LGPD</a></li>
+                            <li>OCR | Reconocimiento Óptico de Caracteres</a></li>
+                            <li>CFTV Digital</a></li>
+                            <li>Control de Acceso con Biometría Facial</a></li>
+                            <li>Diseño, Consultoría y Ejecución</a></li>
+                            <li>Soporte Técnico Remoto y en el Sitio</a></li>
+                            <li>Mantenimiento Preventivo y Correctivo</a></li>
+                            <li>Ingeniería Especializada</a></li>
+                            <li>Arrendamiento de Equipos y Sistemas</a></li>
+                            <li>FFT - Seguridad y Protección Perimetral</a></li>
+                            <li>Implementación RFID - Portolog</a></li>
+                            <li>Desarrollo de Patentes y Soluciones Innovadoras</a></li>
+                            <li>Sellos Electrónicos</a></li>
+                            <li>Software de programación y operaciones logísticas</a></li>
+                        </b>
+                    </ul>
+                    <ul>
+                        <b>
+                            <li>Integración de sistema</a></li>
+                            <li>Infraestructura y tecnología de datos</a></li>
+                            <li>Gestión y gestión de dispositivos con DASHBOARD y KPIS</a></li>
+                            <li>Monitoreo De Máquinas Y Operación De Cosecha Con La Cadena Logística</a></li>
+                            <li>Gestión de Almacén, Terminal, Patio y Puerto</a></li>
+                            <li>Gestión con Video Computacional, Analítica, Machine Learning e Inteligencia Artificial
+                                </a>
+                            </li>
+                            <li>Operación con Armonía, Sostenibilidad, Valorando el Medio Ambiente y la Vida Humana</a>
+                            </li>
+                            <li>Construyendo Inteligencia</a></li>
+                            <li>Automatización industrial</a></li>
+                            <li>Integración de Todos los Actores y Actores de la Cadena Logística con Entrega de Valor</li>
+                            <li> Integración con Condiciones Meteorológicas y Climáticas en Programación de Cosecha, Producción y Operación Suite de Control, Accesos, Operaciones, Almacenamiento, Inventario de Carga Integrado al Portal Único de Comercio Exterior                            
+                            </li>
+                            <li>COANA 80, COANA 94, DUE, DUIMP, CCT, ADE02 y Nueva ADE, ORDENANZA 3518, CÓDIGO PBIP, ADUANAS, OEA, LEGISLACIÓN Y REGLAMENTOS DE LAS AUTORIDADES PORTUARIAS Y OTROS ÓRGANOS CONSENSUALES</li>
+                        </b>
+                    </ul><br /><br />
+                </div>
+                <div class="title">
+                    <h2>Interino</h2>
+                </div>
+                <div class="listbox">
+                    <ul>
+                        <b>
+                            <li>Puertos</a></li>
+                            <li>Terminales Portuarias</a></li>
+                            <li>Agroindustria</a></li>
+                            <li>Universidades</a></li>
+                            <li>Escuelas</a></li>
+                            <li>Hospitales</a></li>
+                        </b>
+                    </ul>
+                    <ul>
+                        <b>
+                            <li>Industrias</a></li>
+                            <li>Estadios</a></li>
+                            <li>Edificios corporativos</a></li>
+                            <li>Ciudades</a></li>
+                            <li>Centros Comerciales</a></li>
+                            <li>Negocio</a></li>
+                        </b>
+                    </ul>
+                </div>
+                <div style="text-align: center; padding-top: 3.5em;">
+
+                    <!-- <video width="560" height="315" controls>
+                        <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                    </video> -->
+
+                    <div id="videos-solucoes">
+                        <div class="card">
+                            <br />
+                            <video controls>
+                                <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card">
+                            <br />
+                            <video controls>
+                                <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card">
+                            <br />
+                            <video controls>
+                                <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card">
+                            <br />
+                            <video controls>
+                                <source src="videos/porto movimentaçoes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="wow fadeInDown">
+        <div id="wrapper3">
+            <div id="portfolio" class="container">
+                <div class="title">
+                    <h2>Soluciones Principales</h2><br /><br />
+                </div>
+
+                <div id="solucoes">
+                    <div class="solucao" id="solucao">
+
+                        <div>
+                            <h3>Sistema de Inteligencia de Agronegocios (SMARTAGRO)</h3>
+
+                            <p>
+                                &nbsp&nbsp La agricultura inteligente o Smart Agro es un concepto que pretende
+                                coordinar la gestión de la granja con la tecnología de datos para optimizar
+                                los sistemas complejos y la dinámica cambiante de la agricultura. El inteligente
+                                Agro también tiene como objetivo hacer que las actividades rurales sean más
+                                eficiente, gracias al acceso a datos en tiempo real que permite
+                                el productor a tomar decisiones más acertadas.
+                            </p>
+                        </div>
+
+                        <div class="texto-solucao1">
+                            <div id="carouselExampleControlsNoTouching4" class="carousel slide" data-bs-touch="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/smartagro1.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/smartagro2.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/smartagro3.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="./images/smartagro4.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/smartagro5.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/smartagro6.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/agro.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solucao">
+
+                        <div class="texto-solucao2">
+                            <div id="carouselExampleControlsNoTouching3" class="carousel slide" data-bs-touch="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/smartport1.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport3.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="images/smartport4.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport5.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport6.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport7.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport8.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/smartport10.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport11.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="images/smartport12.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport13.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport14.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport15.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport16.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/smartport17.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Sistema de Inteligencia Portuaria (SMARTPORT)</h3>
+
+                            <p>
+                                &nbsp&nbsp La inteligencia portuaria incluye el uso racional de datos masivos y
+                                Monitoreo en tiempo real de las operaciones portuarias. En eso
+                                En este caso, los servicios de inteligencia portuaria son de gran ayuda para
+                                mejorar la eficiencia de las operaciones logísticas, después de todo, permiten
+                                que vigile de cerca varios factores. La ventaja de aplicar
+                                esta funcionalidad es para brindar información estratégica con impacto directo
+                                en operaciones en tiempo real. Sin ellos, muchos de los actores del proceso no habrían
+                                idea de lo que realmente está pasando en los puertos que operan.
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="solucao">
+                        <div>
+                            <h3>Tecnología 5G y E/ST</h3>
+
+                            <p>
+                                &nbsp&nbsp 5G es la quinta generación de tecnología y estándar de comunicación.
+                                inalámbrica, la red que los dispositivos móviles utilizarán para conectarse a la
+                                Internet desde cualquier lugar. Además de que el 5G pueda llegar a un
+                                velocidad de hasta 100 veces o más en comparación con 4G, el nuevo
+                                generación también promete baja latencia, es decir, un tiempo mínimo
+                                respuesta entre un dispositivo y los servidores.
+                            </p>
+                        </div>
+
+                        <div class="texto-solucao1">
+                            <div id="carouselExampleControlsNoTouching5" class="carousel slide" data-bs-touch="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/5g.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/5g pic6.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/5g pic7.png" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden"></span>
+                                </button>
+                            </div> <br /> <br />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <h2>Mas Informaciones</h2>
+                </div>
+                <div id="videos-solucoes">
+                    <div class="card">
+                        <h5>Tecnología de Control de Acceso</h4><br>
+                            <video controls>
+                                <source src="videos/controleacesso.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                    <div class="card">
+                        <h5>Tecnología OCR</h4><br>
+                            <video controls>
+                                <source src="videos/ocr.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                    <div class="card">
+                        <h5>Seguimiento de Vehículos</h4><br>
+                            <video controls>
+                                <source src="videos/rastreamento-veic.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                    <div class="card">
+                        <h5>Perimetral Protection</h4><br>
+                            <video controls>
+                                <source src="videos/PerimetralProtection.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="wow fadeInDown">
+        <div id="wrapper4">
+            <div id="explain" class="container">
+                <div class="title">
+                    <h2>Fabricantes y Socios Comerciales</h2>
+                </div>
+
+                <div class="listbox">
+                    <ul>
+                        <b>
+                            <li>INTEL + MICROSOFT + AWS + SEAGATE + SERPRO </a></li>
+                            <li>SICK + OGUEN </li>
+                            <li>AAPA LATINO + DATAGRO + Banco do Brasil </li>
+                            <li>AEAS + ABERIMEST + ACS</li>
+                        </b>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </section>
+
+    <section class="wow fadeInDown">
+        <div id="wrapper6">
+            <div id="about" class="container">
+                <div id="contato">
+                    <div>
+                        <div class="title">
+                            <h2>Ubicación</h2>
+                        </div>
+                        <h5>Unidad Corporativa de Negocios</h5>
+                        <p class="endereco">
+                            DIRECCIÓN: Av. Conselheiro Nébias, nº 756 - 25 andar <br>
+                            Vecindario: Boqueirão - Ciudad: Santos – SP <br>
+                            Tel.: (13) 3307-0244 / 0251 <br>
+                            Email.: atendimento@gtechg.com.br
+                        </p>
+                        <div style="padding-top: 1em;" class="mapouter">
+                            <div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=Av.%20Conselheiro%20N%C3%A9bias,%20n%C2%BA%20756%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://123movies-to.org"></a><br>
+                                <style>
+                                    .mapouter {
+                                        text-align: left;
+                                        height: 300px;
+                                        width: 300px;
+                                    }
+                                </style><a href="https://www.embedgooglemap.net"></a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: 500px;
+                                        width: 600px;
+                                    }
+                                </style>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="title">
+                            <h2>Entre en contacto</h2>
+                        </div>
+                        <p class="endereco">Nuestro equipo de servicio siempre está dispuesto a brindarle <br /> la
+                            la mejor experiencia
+                            en soporte y mesa de ayuda. ¡Ponte en contacto, estaremos encantados de responder a tus
+                            preguntas!</p>
+
+                        <div id="botao">
+                            <p>Nombre</p><input type="text" id="name">
+                            <p>E-mail</p><input type="email" name="" id="email">
+                            <p>Teléfono</p><input type="text">
+                            <p>Mensaje</p><textarea name="" id="mensagem" cols="30" rows="10"></textarea><br /><br />
+                            <input type="submit" name="botao" value="Mandar" class="botaoEnviar"
+                                onclick="sendMail()" /><br /><br />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div id="redes">
+                    <div>
+                        <div class="card">
+                            <div class="title">
+                                <h2>Contacto</h2>
+                            </div>
+                            <h5>Servicio Corporativo</h5>
+                            <p>
+                                Gestión de Relaciones <br>
+                                Tel: +551333070244 / 3307-0251 <br>
+                                Email: <a>atendimento@gtechg.com.br</a>
+                                <br />
+                                <a
+                                    href="https://api.whatsapp.com/send?phone=5513997688406&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                        src="images/icon zap.png" class="imageZap" /></a>
+                                <a href="mailto:atendimento@gtechg.com.br"><img src="images/icon email.png"
+                                        class="imageEmail" /></a> <br />
+
+                                <img src="images/qrcodes/atendimento.jpeg" class="qrCode" />
+                            </p>
+                        </div>
+                        <!-- <div id="redes1">
+                            <div class="card">
+                                 <h5>Flávio Galvão</h5>
+                                <p>
+                                    Diretor Técnico e Inovação <br>
+                                    Email: <a>flavio@gtechg.com.br</a>
+                                    <br>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=55139981284000&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                            src="images/icon zap.png" class="imageZap" /></a>
+                                    <a href="mailto:flavio@gtechg.com.br"><img src="images/icon email.png"
+                                            class="imageEmail" /></a>
+
+                                    <img src="images/qrcodes/flavio.jpeg" class="qrCode" />
+
+                                </p>
+                            </div>
+                            <div class="card">
+                                <h5>Renata dos Santos</h5>
+                                <p>
+                                    Diretora de Contratos <br>
+                                    Email: <a>renata@gtechg.com.br</a>
+                                    <br>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=55139981246943&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                            src="images/icon zap.png" class="imageZap" /></a>
+                                    <a href="mailto:renata@gtechg.com.br"><img src="images/icon email.png"
+                                            class="imageEmail" /></a>
+
+                                    <img src="images/qrcodes/renata.jpeg" class="qrCode" />
+                                </p>
+                            </div>
+                            <div class="card">
+                                <h5>Diego Costa </h5>
+                                <p>
+                                    Gerente de Tecnologia<br>
+                                    Email: <a>diego@gtechg.com.br</a>
+                                    <br>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=5513996519721&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                            src="images/icon zap.png" class="imageZap" /></a>
+                                    <a href="mailto:diego@gtechg.com.br"><img src="images/icon email.png"
+                                            class="imageEmail" /></a>
+
+                                    <img src="images/qrcodes/diego.jpeg" class="qrCode" />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="redes2">
+                            <div class="card">
+                                <h5>Ricardo Pedrassi</h5>
+                                <p>
+                                    Gerente de Tecnologia/Projetos <br>
+                                    Email: <a>ricardo@gtechg.com.br</a>
+                                    <br>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=5513996767700&text=Ol%C3%A1!%20Vim%20Atrav%C3%A9s%20do%20Site"><img
+                                            src="images/icon zap.png" class="imageZap" /></a>
+                                    <a href="mailto:ricardo@gtechg.com.br"><img src="images/icon email.png"
+                                            class="imageEmail" /></a>
+
+                                    <img src="images/qrcodes/ricardo.jpeg" class="qrCode" />
+                                </p>
+                            </div> 
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="copyright" class="container">
+                <p>&copy; GTech. Todos los derechos reservados.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <a id="subirTopo">
+        ^ <br> subir
+    </a>
+</body>
+
+</html>
